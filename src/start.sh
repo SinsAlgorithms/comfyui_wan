@@ -311,6 +311,7 @@ done
 declare -A MODEL_CATEGORIES=(
     ["$NETWORK_VOLUME/ComfyUI/models/checkpoints"]="$CHECKPOINT_IDS_TO_DOWNLOAD"
     ["$NETWORK_VOLUME/ComfyUI/models/loras"]="$LORAS_IDS_TO_DOWNLOAD"
+    ["$NETWORK_VOLUME/ComfyUI/models/diffusion_models"]="$DIFFUSION_MODEL_IDS_TO_DOWNLOAD"
 )
 
 # Counter to track background jobs
